@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "NotebookLM 匯出工具",
+  "version": "7.0",
+  "description": "將 NotebookLM 筆記匯出至 Google Docs、Slides、Forms，內建教學提示詞庫與 APA 參考文獻生成功能。",
+  "icons": {
+    "16": "128.png",
+    "48": "128.png",
+    "128": "128.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "*://script.google.com/*",
+    "*://generativelanguage.googleapis.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://notebooklm.google.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "all_frames": true,
+      "run_at": "document_end"
+    }
+  ]
+}
