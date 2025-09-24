@@ -1,6 +1,7 @@
 # NotebookLM 匯出工具 v7.0
 
 一個強大的 Chrome 擴充功能，讓您輕鬆將 NotebookLM 的內容匯出至 Google Workspace，並提供專業的教育提示詞庫。
+- 擴充功能下載連結：https://chromewebstore.google.com/detail/notebooklm-%E5%8C%AF%E5%87%BA%E5%B7%A5%E5%85%B7/modkfkgmcjbkjhjmhjakohhnfbleghoj
 
 ## ✨ 主要功能
 
